@@ -1034,6 +1034,7 @@ def run_test_closer_to():
     print('Expected: False')
     print('Actual:  ', p1.closer_to(p4, p5) is p5)
 
+
 def run_test_halfway_to():
     """
     Tests the   halfway_to   method of the Point class.
@@ -1118,3 +1119,6 @@ def run_test_halfway_to():
 # Calls  main  to start the ball rolling.
 # ----------------------------------------------------------------------
 main()
+
+
+
